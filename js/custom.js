@@ -1,3 +1,7 @@
+benificiaries = []
+inventory = []
+
+
 function login() {
 	var uname = document.getElementById('exampleInputEmail1').value;
 	var password = document.getElementById('exampleInputPassword1').value;
@@ -15,3 +19,6 @@ function login() {
 	}
 }
 
+function matching(){
+	
+}
