@@ -47,52 +47,14 @@ and open the template in the editor.
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th>Food Category</th>
-                                        <th>Item Classification</th>
                                         <th>Item Description</th>
-                                        <th>Halal</th>
                                         <th>Quantity</th>
-                                        <th>Quantity Required</th>
                                     </tr>
                                 </thead>
 
-                                <tbody>
-                                    <tr>
-                                        <td>Baby Food</td>
-                                        <td>Baby Cereals</td>
-                                        <td>Baby Cereals (250g)</td>
-                                        <td>Halal</td>
-                                        <td>30</td>
-                                        <td><input type="number" name="qtyRequired"> </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Baby Food</td>
-                                        <td>Baby Cereals</td>
-                                        <td>Baby Cereals (450g)</td>
-                                        <td>Halal</td>
-                                        <td>30</td>
-                                        <td><input type="number" name="qtyRequired" > </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Baby Food</td>
-                                        <td>Baby Cereals</td>
-                                        <td>Baby Cereals (800g)</td>
-                                        <td>Halal</td>
-                                        <td>23</td>
-                                        <td><input type="number" name="qtyRequired" > </td>
-                                    </tr>    
-                                    <tr>    
-
-                                        <td>Beverages</td>
-                                        <td>Hot Beverages</td>
-                                        <td>Chocolate Drink Powder (250g)</td>
-                                        <td></td>
-                                        <td>80</td>
-                                        <td><input type="number" name="qtyRequired"> </td>
-                                    </tr>
+                                <tbody id="adminTable">
                                 </tbody>
                             </table>
-                            <input type="submit">
                         </div>
                     </div>
                     <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
@@ -102,6 +64,7 @@ and open the template in the editor.
             
             <!-- Bootstrap core JavaScript-->
             <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
         </div>
     </body>
 </html>

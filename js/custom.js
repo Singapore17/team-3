@@ -87,6 +87,20 @@ function login() {
 	}
 }
 
+function generateTable(){
+	var tableRef = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+	for (item in inventory){
+
+		var tr = document.createElement('TR');
+        var td = document.createElement('TD')
+        td.appendChild(document.createTextNode([item, inventory[item]]));
+        tr.appendChild(td);
+
+        tableRef.appendChild(tr);
+    }
+     console.log(tableBody);
+}
+
 function matching(){
 	var keys = [];
 
@@ -134,4 +148,5 @@ function matching(){
 	}
 }
 
+generateTable()
 matching()
