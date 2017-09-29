@@ -1,1 +1,0 @@
-python manage.py runserver 12.31.0.166:8000
